@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Introdução ao HTML na prática</h1>
+    <hr>
+    <ul>
+        <li><a href="">Ferramentas Utilizadas</a></li>
+        <li><a href="#inspetor">Usando Inspetor de Elementos</a></li>
+        <li><a href="#estrutura">Estrutura Básica dos Elementos</a></li>
+        <li><a href="#tags">Falando sobre Tags</a></li>
+        <li><a href="#atributos">Atributos Básicos</a></li>
+        <li><a href="#pagina">Executando uma página HTML</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+    <h2>Apresentando o Curso</h2>
+    <p>O objetivo desse curso é instalar e configurar o ambiente de dessenvolvimento. Entender o funcionamento do
+        inspetor de elementos do navegador e criar a primeira página HTML. </p> <br><br><br>
+    <h2 id="ferramentas">Ferramentas Utilizadas</h2>
+    <p>Utilizaremos o Google Chrome, como navegador, e o Visual Studio Code como editor de textos (mas poderá utlilizar
+        o Notepad ou Sublime)</p>
+    <p>Para instalação do Visual Code é só entrar no link abaixo, selecionar o seu sistema operacional (Windows, Linux
+        ou Mac) e efetuar o download</p>
+    <a href="https://code.visualstudio.com/download">Clique Aqui para Download</a>
+    <p>Após a instalação podemos configurar o Visual Studio com plugins que otimizam o nosso dia-a-dia</p> <br>
+
+    <h2 id="estrutura">Estrutura Básica dos Elementos</h2>
+    <p>A estrutura de um documento HTML é constituido de tags principais </p>
+    <ul>
+        <li><code>html</code>: indica que o documento trata-se de um documento de marcação de texto</li>
+        <li><code>head</code>: cabeçalho da página (nome que aparece na aba do navegador)</li>
+        <li><code>body</code>: onde se concentra todo o conteúdo a ser apresetado no na página</li>
+        <li><code>footer</code>: rodapé da página</li>
+    </ul><br>
+
+    <h2 id="inspetor">Usando Inspetor de Elementos</h2>
+    <p>A ferramenta Inspetor de Elementos nada mais é do que a ferramenta do desenvolvedor, que aparece em todos os
+        navegadores que utilizar (cada um com seu nome próprio, mas todos com a mesma função).</p>
+    <p>Para acessar essa função é só clicar F12 ou clicar com o botão direito do mouse e clicar em Ferramentas do
+        Desenvolvedor.</p><br>
+
+    <h2 id="tags">Falando sobre Tags</h2>
+    <p>As tags HTML são constituídas de três partes principais: tag de abertura, conteúdo e tag de fechamento (algumas
+        tags HTML não são fechadas). As tags possuem como estruturas principais os sinais <code><</code> e
+        <code>></code>, sendo divididas em dois tipos: </p>
+    <ul>
+        <li>As que precisam de fechamento: são escritas com início <code> < tag > </code> e <code> < / tag > </code>
+        </li>
+        <li>As que não precisam de fechamento, sendo escritas somente <code>< tag / ></code></li>
+    </ul>
+    <p> As principais tags HTML para criar uma página HTML incluem as tags estruturais como <code>html</code>,
+        <code>head</code> e <code>body</code>; as tags de conteúdo como <code>h1</code> a <code>h6</code>,
+        <code>p</code>, <code>img</code> e <code>a</code>; e as tags de formatação como <code>b</code>, <code>i</code> e
+        <code>u</code>.</p> <br>
+
+    <h2 id="atributos">Atributos Básicos</h2>
+    <p> Os atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do
+        elemento. Há dois tipos de atributos no HTML: </p>
+        <ul>
+            <li>Os globais que são aceitos por todas as tags (exemplo: <code>class</code>, <code>id</code>, <code>lang</code>, <code>style</code>);</li>
+            <li>E algumas outras que você pode conferir na documentação;</li>
+            <li>E os específicos que somente algumas tags possuem, como <code>src</code>, <code>disabled</code>, <code>href</code> e <code>label</code>. A estrutura de um atributo é <code>nome_do_atributo=“valor_do_atributo”</code>. </li>
+        </ul>        
+        
+         <p>Os atributos globais HTML básicos incluem os seguintes: <code>accesskey</code>, <code>class</code>, <code>contenteditable</code>, <code>contextmenu</code>, <code>data-*</code>, <code>dir</code>, <code>draggable</code>, <code>dropzone</code>, <code>hidden</code>, <code>id</code>, <code>lang</code>, <code>spellcheck</code>, <code>style</code>, <code>tabindex</code>, <code>title</code> e <code>translate</code>.</p> <br>
+        
+    <h2 id="pagina">Executando uma página HTML</h2>
+    <p>Para executar uma página HTML, você precisa de um navegador web instalado em seu computador. Se você já tem um navegador instalado, basta clicar duas vezes no arquivo HTML e ele será aberto no navegador padrão. Se você não tem um navegador instalado, baixe um dos navegadores mais populares como o Google Chrome, Mozilla Firefox ou Microsoft Edge e instale-o no seu computador. Você também pode usar editores de texto simples como o Bloco de Notas ou o Notepad++ para criar uma página HTML e salvá-la com a extensão .html. Em seguida, clique duas vezes no arquivo HTML para abri-lo em seu navegador padrão.</p><br>
+
+    <h2 id="texto">Textos</h2>
+    <p>Em HTML, o texto é marcado com elementos de texto. O elemento mais básico é o <code>< p ></code>, que define um parágrafo. Outros elementos de texto incluem <code>< h1 ></code> - <code>< h6 > </code>para títulos, <code>< a ></code> para links, <code>< strong ></code> para texto em negrito e <code>< em ></code> para texto em itálico. Você pode usar esses elementos de texto para criar uma página da web com conteúdo estruturado e fácil de ler.</p> <br>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+    <p>Em HTML, existem dois tipos de listas:</p> 
+    <ul>
+        <li>listas ordenadas e </li>
+        <li>listas não ordenadas.</li>
+    </ul>
+    <p> As listas ordenadas são usadas para indicar alguma sequência ou numeração. As tags usadas para criar uma lista ordenada são <code>< ol ></code> e <code>< li ></code>. A tag <code>< ol ></code> é usada para definir a lista e a tag <code>< li ></code> é usada para cada item da lista. Já as listas não ordenadas são usadas para listar itens, sem se preocupar com sua sequência. As tags usadas para criar uma lista não ordenada são <code>< ul ></code> e <code>< li ></code>. A tag <code>< ul ></code> é usada para definir a lista e a tag <code>< li ></code> é usada para cada item da lista.</p>
+
+    <h2 id="links">Links</h2>
+    <p>Em HTML, os links são definidos pela tag <code>< a ></code>. Dentro dessa tag incluímos o atributo href (Hypertext Reference), que é o endereço de destino do link. O link HTML permite inserir hiperlinks em diversos elementos, como textos e imagens. Um link precisa sempre apontar para uma URL (endereço) existente em seu site. Caso contrário, você poderá obter uma mensagem de erro 404.</p>
+</body>
+
+</html>
